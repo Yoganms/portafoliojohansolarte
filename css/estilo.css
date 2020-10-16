@@ -940,9 +940,10 @@ h4{
 .ani2{
     animation-delay: 2s;
 }
-@media (min-width: 350px) and (max-width: 750px) {
+@media (min-width: 350px) and (max-width: 600px) {
     .container{
         margin-top: 25px;
+        margin-left: 11px;
     }
     .primeros{
         font-family: 'Arvo', serif;
@@ -969,7 +970,7 @@ h4{
     }
     .logo1{
         margin-top: -100px;
-        margin-left: 50px;
+        margin-left: 25px;
         display: flex;
         justify-content: center;
     }
@@ -979,7 +980,7 @@ h4{
     .nombre{
         font-family: 'Arvo', serif;
         margin-top: -125px;
-        margin-left: 220px;
+        margin-left: 150px;
     }
     .johan{
         font-size: 13px;
@@ -987,39 +988,42 @@ h4{
     .frase{
         font-family: 'Arvo', serif;
         margin-top: -80px;
-        margin-left: 70px;
+        margin-left: 25px;
     }
     .frase1{
         font-size: 25px;
     }
     .caja1{
         z-index: 1;
-        margin-top: 25px;
+        margin-top: 45px;
         background-color: #6B9996;
         width: 460px;
         height: 573px;
-        margin-top: -1110px;
+        margin-top: -1030px;
     }
     .barra1{
         z-index: 2;
-        margin-top: 25px;
+        margin-top: 45px;
         background-color: #F9C15C;
         width: 80px;
         height: 573px;
-        margin-top: -1110px;
+        margin-top: -1030px;
     }
     .sobremi{
         position: absolute;
         z-index: 3;
         margin-top: 40px;
-        margin-left: 35px;
+        margin-left: 5px;
         background-color: #507371;
-        width: 470px;
+        width: 450px;
         height: 450px;
     }
     .foto{
         margin-top: 550px;
         width: 575px;
+    }
+    .fotos{
+        width: 460px;
     }
     .barra2{
         background-color: #F9C15C;
@@ -1028,7 +1032,7 @@ h4{
     }
     .caja2{
         background-color: #507371;
-        width: 460px;
+        width: 380px;
         height: 1050px;
     }
     .gorro{
@@ -1052,7 +1056,7 @@ h4{
     }
     .primaria{
         margin-top: 80px;
-        margin-left: 100px;
+        margin-left: 30px;
         position: absolute;
         z-index: 6;
         background-color: rgba(80, 115, 113, 0.5);
@@ -1062,7 +1066,7 @@ h4{
     }
     .bachillerato{
         margin-top: 320px;
-        margin-left: 100px;
+        margin-left: 30px;
         position: absolute;
         z-index: 8;
         background-color: rgba(80, 115, 113, 0.5);
@@ -1072,7 +1076,7 @@ h4{
     }
     .diseño{
         margin-top: 560px;
-        margin-left: 100px;
+        margin-left: 30px;
         position: absolute;
         z-index: 7;
         background-color: rgba(80, 115, 113, 0.5);
@@ -1082,7 +1086,7 @@ h4{
     }
     .produccion{
         margin-top: 800px;
-        margin-left: 100px;
+        margin-left: 30px;
         position: absolute;
         z-index: 9;
         background-color: rgba(80, 115, 113, 0.5);
@@ -1092,22 +1096,49 @@ h4{
     }
     .caja3{
         background-color: #6B9996;
-        width: 460px;
+        width: 380px;
         height: 820px;
     }
     .barra3{
         background-color: #F9C15C;
         width: 80px;
         height: 820px;
-        margin-left: 460px;
+        margin-left: 380px;
     }
     .titulo3{
         font-family: 'Arvo', serif;
         font-size: 25px;
         margin-top: 25px;
-        margin-left: 110px;
+        margin-left: 75px;
         position: absolute;
         z-index: 12;
+    }
+    .carpinteria{
+        margin-top: 80px;
+        margin-left: 30px;
+        position: absolute;
+        z-index: 13;
+        background-color: #507371;
+        width: 400px;
+        height: 220px;
+    }
+    .tapizados{
+        margin-top: 320px;
+        margin-left: 30px;
+        position: absolute;
+        z-index: 14;
+        background-color: #507371;
+        width: 400px;
+        height: 220px;
+    }
+    .callcenter{
+        margin-top: 560px;
+        margin-left: 30px;
+        position: absolute;
+        z-index: 15;
+        background-color: #507371;
+        width: 400px;
+        height: 220px;
     }
     .mano{
         display: none;
@@ -1119,19 +1150,19 @@ h4{
     }
     .caja4{
         background-color: #FFFFFF;
-        width: 460px;
+        width: 380px;
         height: 40px;
     }
     .caja5{
         background-color: #6B9996;
-        width: 560px;
+        width: 460px;
         height: 750px;
     }
     .titulo4{
         font-family: 'Arvo', serif;
         font-size: 30px;
         margin-top:30px;
-        margin-left: 185px;
+        margin-left: 140px;
         position: absolute;
         z-index: 23;
     }
@@ -1154,7 +1185,7 @@ h4{
         width: 210px;
         height: 165px; 
         margin-top: 150px;
-        margin-left: 60px;
+        margin-left: 30px;
     }
     .servicios{
         position: absolute;
@@ -1162,15 +1193,15 @@ h4{
         font-size: 15px;
         font-family: 'Arvo', serif;
         margin-top: 300px;
-        margin-left: 100px;
+        margin-left: 70px;
     }
     .video{
         position: absolute;
         z-index: 24;
         width: 210px;
         height: 165px; 
-        margin-top: 130px;
-        margin-left: 300px;
+        margin-top: 125px;
+        margin-left: 250px;
     }
     .servicios2{
         position: absolute;
@@ -1178,7 +1209,7 @@ h4{
         font-size: 15px;
         font-family: 'Arvo', serif;
         margin-top: 276px;
-        margin-left: 360px;
+        margin-left: 310px;
     }
     .pintura{
         position: absolute;
@@ -1186,7 +1217,7 @@ h4{
         width: 210px;
         height: 165px; 
         margin-top: 400px;
-        margin-left: 60px;
+        margin-left: 30px;
     }
     .servicios3{
         position: absolute;
@@ -1194,15 +1225,15 @@ h4{
         font-size: 15px;
         font-family: 'Arvo', serif;
         margin-top: 560px;
-        margin-left: 95px;
+        margin-left: 65px;
     }
     .lapiz{
         position: absolute;
         z-index: 26;
         width: 210px;
         height: 165px; 
-        margin-top: 376px;
-        margin-left: 300px;
+        margin-top: 370px;
+        margin-left: 250px;
     }
     .servicios4{
         position: absolute;
@@ -1210,11 +1241,11 @@ h4{
         font-size: 15px;
         font-family: 'Arvo', serif;
         margin-top: 537px;
-        margin-left: 350px;
+        margin-left: 300px;
     }
     .caja6{
         background-color: #FFFFFF;
-        width: 460px;
+        width: 380px;
         height: 40px;
     }
     .barra6{
@@ -1224,7 +1255,7 @@ h4{
     }
     .caja7{
         background-color: #6B9996;
-        width: 560px;
+        width: 460px;
         height: 700px;
     }
     .carrusel{
@@ -1233,32 +1264,32 @@ h4{
     .foto1{
         width: 300x;
         height: 500px;
-        margin-left: 85px;
+        margin-left: 43px;
     }
     .frez{
         width: 300x;
         height: 500px;
-        margin-left: 77px;
+        margin-left: 37px;
     }
     .foto3{
         width: 300x;
         height: 500px;
-        margin-left: 85px;
+        margin-left: 43px;
     }
     .andimal{
         width: 350x;
         height: 550px;
-        margin-left: 75px;
+        margin-left: 32px;
     }
     .poster{
         width: 350x;
         height: 550px;
-        margin-left: 100px;
+        margin-left: 61px;
     }
     .garra{
         width: 350x;
         height: 550px;
-        margin-left: 85px;
+        margin-left: 47px;
     }
     .barra8{
         background-color: #F9C15C;
@@ -1267,19 +1298,19 @@ h4{
     }
     .caja8{
         background-color: #FFFFFF;
-        width: 460px;
+        width: 380px;
         height: 40px;
     }
     .caja9{
         background-color: #6B9996;
-        width: 540px;
+        width: 460px;
         height: 1800px;
     }
     .titulo5{
         font-size: 15px;
         font-family: 'Arvo', serif;
         margin-top:50px;
-        margin-left: 80px;
+        margin-left: 40px;
         font-size: 30px;
         position: absolute;
         z-index: 35;
@@ -1288,7 +1319,7 @@ h4{
         font-size: 15px;
         font-family: 'Arvo', serif;
         margin-top: 910px;
-        margin-left: 72px;
+        margin-left: 36px;
         font-size: 30px;
         position: absolute;
         z-index: 19;
@@ -1298,151 +1329,150 @@ h4{
     }
     .progreso1{
         z-index: 38;
-        height: 35px;
-        width: 500px;
+        width: 430px;
         border-radius: 20px;
         border: 2px solid #070519;
         margin-top: -220px;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .progreso2{
         position: absolute;
         z-index: 39;
-        width: 500px;
+        width: 430px;
         border-radius: 20px;
         border: 2px solid #070519;
         margin-top: 50px;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .progreso3{
         position: absolute;
         z-index: 40;
-        width: 500px;
+        width: 430px;
         border-radius: 20px;
         border: 2px solid #070519;
         margin-top: 150px;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .progreso4{
         position: absolute;
         z-index: 41;
-        width: 500px;
+        width: 430px;
         border-radius: 20px;
         border: 2px solid #070519;
         margin-top: 250px;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .progreso5{
         position: absolute;
         z-index: 42;
-         width: 500px;
+         width: 430px;
         border-radius: 20px;
         border: 2px solid #070519;
         margin-top: 350px;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .progreso6{
         position: absolute;
         z-index: 43;
-        width: 500px;
+        width: 430px;
         border-radius: 20px;
         border: 2px solid #070519;
         margin-top: 450px;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .progreso7{
         position: absolute;
         z-index: 44;
-        width: 500px;
+        width: 430px;
         border-radius: 20px;
         border: 2px solid #070519;
         margin-top: 550px;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .progreso8{
         position: absolute;
         z-index: 45;
-        width: 500px;
+        width: 430px;
         border-radius: 20px;
         border: 2px solid #070519;
         margin-top: 650px;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .progreso9{
         z-index: 46;
-        width: 500px;
+        width: 430px;
         border-radius: 20px;
         border: 2px solid #070519;
         margin-top: 830px;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .progreso10{
         position: absolute;
         z-index: 47;
-        width: 500px;
+        width: 430px;
         border-radius: 20px;
         border: 2px solid #070519;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .progreso11{
         position: absolute;
         z-index: 48;
-        width: 500px;
+        width: 430px;
         border-radius: 20px;
         border: 2px solid #070519;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .progreso12{
         position: absolute;
         z-index: 49;
-        width: 500px;
+        width: 430px;
         border-radius: 20px;
         border: 2px solid #070519;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .progreso13{
         position: absolute;
         z-index: 50;
-        width: 500px;
+        width: 430px;
         border-radius: 20px;
         border: 2px solid #070519;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .progreso14{
         position: absolute;
         z-index: 51;
-        width: 500px;
+        width: 430px;
         border-radius: 20px;
         border: 2px solid #070519;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .progreso15{
         position: absolute;
         z-index: 52;
-        width: 500px;
+        width: 430px;
         border-radius: 20px;
         border: 2px solid #070519;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .progreso16{
         position: absolute;
         z-index: 53;
-        width: 500px;
+        width: 430px;
         border-radius: 20px;
         border: 2px solid #070519;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .caja10{
         display: flex;
         background-color: #364D4B;
-        width: 560px;
+        width: 460px;
         height: 100px;
     }
     .item1{
         position: absolute;
         z-index: 64;
         margin-top: 20px;
-        margin-left: 100px;
+        margin-left: 60px;
         width: 60px;
         height: 60px;
     }
@@ -1450,7 +1480,7 @@ h4{
         position: absolute;
         z-index: 65;
         margin-top: 20px;
-        margin-left: 245px;
+        margin-left: 205px;
         width: 60px;
         height: 60px;
     }
@@ -1458,13 +1488,13 @@ h4{
         position: absolute;
         z-index: 66;
         margin-top: 20px;
-        margin-left: 380px;
+        margin-left: 340px;
         width: 60px;
         height: 60px;
     }
     .caja11{
         background-color: #FFFFFF;
-        width: 560px;
+        width: 460px;
         height: 480px;
     }
     .titulo7{
@@ -1495,7 +1525,7 @@ h4{
         font-family: 'Arvo', serif;
         font-size: 20px;
         margin-top: -250px ;
-        margin-left: 75px;
+        margin-left: 35px;
     }
     .formulario11{
         position: absolute;
@@ -1506,7 +1536,7 @@ h4{
         opacity: 0.7;
         border: 2px solid #070519;
         margin-top: -230px;
-        margin-left: 70px;
+        margin-left: 30px;
     }
     .formulario2{
         position: absolute;
@@ -1514,7 +1544,7 @@ h4{
         font-family: 'Arvo', serif;
         font-size: 20px;
         margin-top: -200px ;
-        margin-left: 75px;
+        margin-left: 35px;
     }
     .formulario22{
         position: absolute;
@@ -1525,7 +1555,7 @@ h4{
         opacity: 0.7;
         border: 2px solid #070519;
         margin-top: -180px;
-        margin-left: 70px;
+        margin-left: 30px;
     }
     .formulario3{
         position: absolute;
@@ -1533,7 +1563,7 @@ h4{
         font-family: 'Arvo', serif;
         font-size: 20px;
         margin-top: -150px ;
-        margin-left: 75px;
+        margin-left: 35px;
     }
     .formulario33{
         position: absolute;
@@ -1544,13 +1574,13 @@ h4{
         opacity: 0.7;
         border: 2px solid #070519;
         margin-top: -130px;
-        margin-left: 70px;
+        margin-left: 30px;
     }
     .boton2{
         position: absolute;
         z-index: 63;
         margin-top: -10px;
-        margin-left: 235px;
+        margin-left: 190px;
         display: flex;
         width: 75px;
         height: 20px;
@@ -1563,7 +1593,7 @@ h4{
     .caja12{
         display: flex;
         background-color: #364D4B;
-        width: 560px;
+        width: 460px;
         height: 150px;
     }
     .textofinal{
@@ -1572,7 +1602,7 @@ h4{
         font-size: 20px;
         font-family: 'Arvo', serif;
         margin-top: 30px;
-        margin-left: 200px;
+        margin-left: 160px;
     }
     .logofinal{
         position: absolute;
@@ -1588,7 +1618,7 @@ h4{
         opacity: 0.7;
         width: 120px;
         margin-top: 60px;
-        margin-left: 395px;
+        margin-left: 325px;
     }
     
 }
