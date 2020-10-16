@@ -338,20 +338,20 @@
             <div class="logou">
                 <img class="logoul" src="img/logo2-06.svg" alt="">
             </div>
-            <form>
+            <form action="envia.php" method="POST">
                 <div class="form-group wow animate__animated animate__bounceInDown " data-wow-duration = "2s">
                   <label for="nombre"><p class="formulario1">Nombre</p></label>
-                  <input class="form-control formulario11" id="nombre" placeholder="Pepito Perez">
+                  <input class="form-control formulario11" name="nombre" id="nombre" placeholder="Pepito Perez" required>
                 </div>
                 <div class="form-group wow animate__animated animate__bounceInDown " data-wow-duration = "2s">
                     <label for="correo"><p class="formulario2">Correo</p></label>
-                    <input type="email" class="form-control formulario22" id="correo" placeholder="pepitoperez123@gmail.com">
+                    <input type="email" class="form-control formulario22" name="email" id="correo" placeholder="pepitoperez123@gmail.com" required>
                 </div>
                 <div class="form-group wow animate__animated animate__bounceInDown " data-wow-duration = "2s">
                     <label for="mensaje"><p class="formulario3">Mensaje</p></label>
-                    <textarea class="form-control formulario33" id="mensaje" rows="4"></textarea>
+                    <textarea class="form-control formulario33" name="mensaje" id="mensaje" rows="4"></textarea>
                 </div>
-                <button class="boton2 wow animate__animated animate__backInRight " data-wow-duration = "2s"><p class="enviar">Enviar</p></button>
+                <button type="submit" class="boton2 wow animate__animated animate__backInRight " data-wow-duration = "2s"><p class="enviar">Enviar</p></button>
             </form>
         </div>
     </div>
