@@ -1,0 +1,1596 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #070519;
+    margin: auto;
+}
+.container{
+    margin-top: 50px;
+}
+h4{
+    font-family: 'Arvo', serif;
+}
+.primeros{
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+}
+.hoja{
+    margin-top: 15px;
+    font-family: 'Arvo', serif;
+    font-size: 14px;
+}
+.boton1{
+    margin-top: 15px;
+    display: flex;
+    width: 172px;
+    height: 45px;
+    background-color: #F9C15C;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.flecha{
+    width: 40px;
+    height: 40px;
+}
+.logo1{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    margin-top: 10px;
+    width: 884px;
+    height: 366px;
+}
+.nombre{
+    font-family: 'Arvo', serif;
+    margin-top: -60px;
+    margin-left: 480px;
+}
+.johan{
+    font-size: 30px;
+}
+.frase{
+    font-family: 'Arvo', serif;
+    margin-top: 45px;
+}
+.frase1{
+    font-size: 50px;
+}
+.foto{
+    margin-top: 25px;
+    width: 575px;
+}
+.caja1{
+    z-index: 1;
+    margin-top: 25px;
+    background-color: #6B9996;
+    width: 485px;
+    height: 573px;
+}
+.barra1{
+    z-index: 2;
+    margin-top: 25px;
+    background-color: #F9C15C;
+    width: 80px;
+    height: 573px;
+}
+.sobremi{
+    position: absolute;
+    z-index: 3;
+    margin-top: 85px;
+    margin-left: 560px;
+    background-color: #507371;
+    width: 470px;
+    height: 450px;
+}
+.titulo1{
+    margin-right: 40px;
+    font-size: 25px;
+}
+.parrafo1{
+    margin-right: 40px;
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+}
+.barra2{
+    background-color: #F9C15C;
+    width: 80px;
+    height: 573px;
+}
+.caja2{
+    background-color: #507371;
+    width: 1060px;
+    height: 573px;
+}
+.gorro{
+    display: flex;
+    justify-content: center; 
+    margin-top: 70px;
+    margin-left: -70px;
+}
+.gorro1{
+    z-index: 4;
+    width: 611px;
+    height: 454px; 
+}
+.titulo2{
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+    position: absolute;
+    z-index: 5;
+    margin-top: -45px;
+    margin-left: 145px;
+}
+.primaria{
+    margin-top: 80px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 6;
+    background-color: rgba(80, 115, 113, 0.7);
+    border: 1px solid black;
+    width: 400px;
+    height: 220px;
+}
+.diseño{
+    margin-top: 320px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 7;
+    background-color: rgba(80, 115, 113, 0.7);
+    border: 1px solid black;
+    width: 400px;
+    height: 220px;
+}
+.bachillerato{
+    margin-top: 80px;
+    margin-left: 650px;
+    position: absolute;
+    z-index: 8;
+    background-color: rgba(80, 115, 113, 0.7);
+    border: 1px solid black;
+    width: 400px;
+    height: 220px;
+}
+.produccion{
+    margin-top: 320px;
+    margin-left: 650px;
+    position: absolute;
+    z-index: 9;
+    background-color: rgba(80, 115, 113, 0.7);
+    border: 1px solid black;
+    width: 400px;
+    height: 220px;
+}
+.fecha{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: 'Arvo', serif;
+}
+.tituloestudio{
+    margin-top: -40px;
+    margin-left: 15px;
+    font-family: 'Arvo', serif;
+}
+.contenidoestudio{
+    margin-top: -25px;
+    margin-left: 15px;
+    font-family: 'Arvo', serif;
+}
+.contenidoestudio1{
+    margin-top: -25px;
+    margin-left: 15px;
+    font-size: 14px;
+    font-family: 'Arvo', serif;
+}
+.caja3{
+    z-index: 10;
+    background-color: #6B9996;
+    width: 1060px;
+    height: 820px;
+}
+.barra3{
+    z-index: 11;
+    background-color: #F9C15C;
+    width: 80px;
+    height: 820px;
+    margin-top: -24px;
+    margin-left: 1060px;
+}
+.titulo3{
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+    margin-top:25px;
+    margin-left: 420px;
+    position: absolute;
+    z-index: 12;
+}
+.carpinteria{
+    margin-top: 80px;
+    margin-left: 70px;
+    position: absolute;
+    z-index: 13;
+    background-color: #507371;
+    width: 400px;
+    height: 220px;
+}
+.tapizados{
+    margin-top: 320px;
+    margin-left: 70px;
+    position: absolute;
+    z-index: 14;
+    background-color: #507371;
+    width: 400px;
+    height: 220px;
+}
+.callcenter{
+    margin-top: 560px;
+    margin-left: 70px;
+    position: absolute;
+    z-index: 15;
+    background-color: #507371;
+    width: 400px;
+    height: 220px;
+}
+.mano{
+    position: absolute;
+    z-index: 16;
+    margin-top: 135px;
+    margin-left: 530px;
+    width: 550px;
+}
+.contenidotrabajo{
+    margin-top: -25px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-family: 'Arvo', serif;
+}
+.barra4{
+    background-color: #F9C15C;
+    width: 80px;
+    height: 40px;
+}
+.caja4{
+    background-color: #FFFFFF;
+    width: 1060px;
+    height: 40px;
+}
+.caja5{
+    background-color: #6B9996;
+    width: 1140px;
+    height: 500px;
+}
+.titulo4{
+    font-family: 'Arvo', serif;
+    margin-top:30px;
+    margin-left: 460px;
+    font-size: 40px;
+    position: absolute;
+    z-index: 23;
+}
+.logo2{
+    z-index: 20;
+    display: flex;
+    justify-content: center; 
+    margin-top: -50px;
+}
+.logo22{
+    position: absolute;
+    z-index: 21;
+    opacity: 0.3;
+    width: 711px;
+    height: 554px; 
+}
+.camara{
+    position: absolute;
+    z-index: 22;
+    width: 270px;
+    height: 235px; 
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.servicios{
+    position: absolute;
+    z-index: 23;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    margin-top: 375px;
+    margin-left: 100px;
+}
+.video{
+    position: absolute;
+    z-index: 24;
+    width: 270px;
+    height: 235px; 
+    margin-top: 130px;
+    margin-left: 340px;
+}
+.servicios2{
+    position: absolute;
+    z-index: 25;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    margin-top: 350px;
+    margin-left: 420px;
+}
+.pintura{
+    position: absolute;
+    z-index: 26;
+    width: 270px;
+    height: 235px; 
+    margin-top: 100px;
+    margin-left: 600px;
+}
+.servicios3{
+    position: absolute;
+    z-index: 27;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    margin-top: 305px;
+    margin-left: 645px;
+}
+.lapiz{
+    position: absolute;
+    z-index: 26;
+    width: 270px;
+    height: 235px; 
+    margin-top: 80px;
+    margin-left: 860px;
+}
+.servicios4{
+    position: absolute;
+    z-index: 27;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    margin-top: 280px;
+    margin-left: 915px;
+}
+.caja6{
+    background-color: #FFFFFF;
+    width: 1060px;
+    height: 40px;
+}
+.barra6{
+    background-color: #F9C15C;
+    width: 80px;
+    height: 40px;
+}
+.caja7{
+    background-color: #6B9996;
+    width: 1140px;
+    height: 1100px;
+}
+.carrusel{
+    margin-top: 100px;
+}
+.trabajo{
+    font-size: 30px;
+    font-family: 'Arvo', serif;
+}
+.trabajo1{
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+}
+.trabajo2{
+    font-size: 25px;
+    font-family: 'Arvo', serif;
+}
+.foto1{
+    width: 700x;
+    height: 900px;
+    margin-left: 230px;
+}
+.frez{
+    width: 700x;
+    height: 900px;
+    margin-left: 230px;
+}
+.foto3{
+    width: 700x;
+    height: 900px;
+    margin-left: 230px;
+}
+.andimal{
+    width: 750x;
+    height: 950px;
+    margin-left: 230px;
+}
+.poster{
+    width: 750x;
+    height: 950px;
+    margin-left: 275px;
+}
+.garra{
+    width: 750x;
+    height: 950px;
+    margin-left: 250px;
+}
+.barra8{
+    background-color: #F9C15C;
+    width: 80px;
+    height: 40px;
+}
+.caja8{
+    background-color: #FFFFFF;
+    width: 1060px;
+    height: 40px;
+}
+.caja9{
+    background-color: #6B9996;
+    width: 1140px;
+    height: 950px;
+}
+.titulo5{
+    font-family: 'Arvo', serif;
+    margin-top:50px;
+    margin-left: 100px;
+    font-size: 30px;
+    position: absolute;
+    z-index: 35;
+}
+.titulo6{
+    font-family: 'Arvo', serif;
+    margin-top: 27px;
+    margin-left: 650px;
+    font-size: 30px;
+    position: absolute;
+    z-index: 19;
+}
+.logo4{
+    z-index: 36;
+    display: flex;
+    justify-content: center; 
+    margin-top: 300px;
+    margin-left: 50px;
+}
+.logo44{
+    margin-top: -250px;
+    position: absolute;
+    z-index: 37;
+    opacity: 0.3;
+    width: 911px;
+    height: 754px; 
+}
+.progreso1{
+    z-index: 38;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #070519;
+    margin-top: -200px;
+    margin-left: 50px;
+}
+.bombillo{
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.creatividad{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.progreso2{
+    position: absolute;
+    z-index: 39;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #070519;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.social{
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.sociable{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.progreso3{
+    position: absolute;
+    z-index: 40;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #070519;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.amable{
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.amabilidad{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.progreso4{
+    position: absolute;
+    z-index: 41;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #070519;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+.calma{
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.paciente{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.progreso5{
+    position: absolute;
+    z-index: 42;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #070519;
+    margin-top: 350px;
+    margin-left: 50px;
+}
+.comunicar{
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.comunicacion{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.progreso6{
+    position: absolute;
+    z-index: 43;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #070519;
+    margin-top: 450px;
+    margin-left: 50px;
+}
+.emociones{
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.emocional{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.progreso7{
+    position: absolute;
+    z-index: 44;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #070519;
+    margin-top: 550px;
+    margin-left: 50px;
+}
+.reloj{
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.productividad{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.progreso8{
+    position: absolute;
+    z-index: 45;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #070519;
+    margin-top: 650px;
+    margin-left: 50px;
+}
+.verbal{
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.fluidez{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.progreso9{
+    z-index: 46;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #070519;
+    margin-top: -50px;
+    margin-left: 590px;
+}
+.win{
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.ofimatica{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.progreso10{
+    position: absolute;
+    z-index: 47;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #070519;
+    margin-top: 50px;
+    margin-left: 590px;
+}
+.ai{
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.illustrator{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.progreso11{
+    position: absolute;
+    z-index: 48;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #070519;
+    margin-top: 150px;
+    margin-left: 590px;
+}
+.ps{
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.photoshop{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.progreso12{
+    position: absolute;
+    z-index: 49;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #070519;
+    margin-top: 250px;
+    margin-left: 590px;
+}
+.pr{
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.premier{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.progreso13{
+    position: absolute;
+    z-index: 50;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #070519;
+    margin-top: 350px;
+    margin-left: 590px;
+}
+.id{
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.indesign{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.progreso14{
+    position: absolute;
+    z-index: 51;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #070519;
+    margin-top: 450px;
+    margin-left: 590px;
+}
+.lr{
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.lightroom{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.progreso15{
+    position: absolute;
+    z-index: 52;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #070519;
+    margin-top: 550px;
+    margin-left: 590px;
+}
+.html{
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.html5{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.progreso16{
+    position: absolute;
+    z-index: 53;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #070519;
+    margin-top: 650px;
+    margin-left: 590px;
+}
+.css{
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.css3{
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.caja10{
+    display: flex;
+    background-color: #364D4B;
+    width: 1140px;
+    height: 100px;
+}
+.item1{
+    position: absolute;
+    z-index: 64;
+    margin-top: 20px;
+    margin-left: 245px;
+    width: 60px;
+    height: 60px;
+}
+.item2{
+    position: absolute;
+    z-index: 65;
+    margin-top: 20px;
+    margin-left: 550px;
+    width: 60px;
+    height: 60px;
+}
+.item3{
+    position: absolute;
+    z-index: 66;
+    margin-top: 20px;
+    margin-left: 850px;
+    width: 60px;
+    height: 60px;
+}
+.caja11{
+    background-color: #FFFFFF;
+    width: 1140px;
+    height: 500px;
+}
+.titulo7{
+    font-family: 'Arvo', serif;
+    position: absolute;
+    z-index: 54;
+    margin-top: 30px;
+    margin-left: 510px;
+    font-size: 20px;
+}
+.logou{
+    z-index: 55;
+    display: flex;
+    justify-content: center; 
+    margin-top: 300px;
+    margin-left: 40px;
+}
+.logoul{
+    margin-top: -450px;
+    position: absolute;
+    z-index: 56;
+    opacity: 0.3;
+    width: 911px;
+    height: 754px; 
+}
+.formulario1{
+    position: absolute;
+    z-index: 57;
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -250px ;
+    margin-left: 340px;
+}
+.formulario11{
+    position: absolute;
+    z-index: 58;
+    width: 500px;
+    border-radius: 20px;
+    background-color: #F9C15C;
+    opacity: 0.7;
+    border: 2px solid #070519;
+    margin-top: -230px;
+    margin-left: 320px;
+}
+.formulario2{
+    position: absolute;
+    z-index: 59;
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -200px ;
+    margin-left: 340px;
+}
+.formulario22{
+    position: absolute;
+    z-index: 60;
+    width: 500px;
+    border-radius: 20px;
+    background-color: #F9C15C;
+    opacity: 0.7;
+    border: 2px solid #070519;
+    margin-top: -180px;
+    margin-left: 320px;
+}
+.formulario3{
+    position: absolute;
+    z-index: 61;
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    margin-top: -150px ;
+    margin-left: 340px;
+}
+.formulario33{
+    position: absolute;
+    z-index: 62;
+    width: 500px;
+    border-radius: 20px;
+    background-color: #F9C15C;
+    opacity: 0.7;
+    border: 2px solid #070519;
+    margin-top: -130px;
+    margin-left: 320px;
+}
+.boton2{
+    position: absolute;
+    z-index: 63;
+    margin-top: -60px;
+    margin-left: 830px;
+    display: flex;
+    width: 75px;
+    height: 20px;
+    background-color: #6B9996;
+    opacity: 0.7;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.enviar{
+    margin-top: 15px;
+    font-family: 'Arvo', serif;
+    font-size: 15px;
+}
+.caja12{
+    display: flex;
+    background-color: #364D4B;
+    width: 1140px;
+    height: 150px;
+}
+.textofinal{
+    position: absolute;
+    z-index: 67;
+    font-size: 25px;
+    font-family: 'Arvo', serif;
+    margin-top: 20px;
+    margin-left: 480px;
+}
+.logofinal{
+    position: absolute;
+    z-index: 68;
+    width: 90px;
+    height: 110px; 
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.logofinal2{
+    position: absolute;
+    z-index: 69;
+    opacity: 0.7;
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 940px;
+}
+.ani1{
+    animation-delay: 1s;
+}
+.ani2{
+    animation-delay: 2s;
+}
+@media (min-width: 350px) and (max-width: 750px) {
+    .container{
+        margin-top: 25px;
+    }
+    .primeros{
+        font-family: 'Arvo', serif;
+        font-size: 15px;
+    }
+    .boton1{
+        margin-top: 5px;
+        display: flex;
+        width: 100px;
+        height: 25px;
+        background-color: #F9C15C;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .hoja{
+        margin-top: 15px;
+        font-family: 'Arvo', serif;
+        font-size: 8px;
+    }
+    .flecha{
+        width: 23px;
+        height: 23px;
+    }
+    .logo1{
+        margin-top: -100px;
+        margin-left: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .logo{
+        width: 430px;
+    }
+    .nombre{
+        font-family: 'Arvo', serif;
+        margin-top: -125px;
+        margin-left: 220px;
+    }
+    .johan{
+        font-size: 13px;
+    }
+    .frase{
+        font-family: 'Arvo', serif;
+        margin-top: -80px;
+        margin-left: 70px;
+    }
+    .frase1{
+        font-size: 25px;
+    }
+    .caja1{
+        z-index: 1;
+        margin-top: 25px;
+        background-color: #6B9996;
+        width: 460px;
+        height: 573px;
+        margin-top: -1110px;
+    }
+    .barra1{
+        z-index: 2;
+        margin-top: 25px;
+        background-color: #F9C15C;
+        width: 80px;
+        height: 573px;
+        margin-top: -1110px;
+    }
+    .sobremi{
+        position: absolute;
+        z-index: 3;
+        margin-top: 40px;
+        margin-left: 35px;
+        background-color: #507371;
+        width: 470px;
+        height: 450px;
+    }
+    .foto{
+        margin-top: 550px;
+        width: 575px;
+    }
+    .barra2{
+        background-color: #F9C15C;
+        width: 80px;
+        height: 1050px;
+    }
+    .caja2{
+        background-color: #507371;
+        width: 460px;
+        height: 1050px;
+    }
+    .gorro{
+        display: flex;
+        justify-content: center; 
+        margin-top: 380px;
+        margin-left: -70px;
+    }
+    .gorro1{
+        z-index: 4;
+        width: 400px;
+        height: 325px; 
+    }
+    .titulo2{
+        font-family: 'Arvo', serif;
+        font-size: 25px;
+        position: absolute;
+        z-index: 5;
+        margin-top: -360px;
+        margin-left: 20px;
+    }
+    .primaria{
+        margin-top: 80px;
+        margin-left: 100px;
+        position: absolute;
+        z-index: 6;
+        background-color: rgba(80, 115, 113, 0.5);
+        border: 1px solid black;
+        width: 400px;
+        height: 220px;
+    }
+    .bachillerato{
+        margin-top: 320px;
+        margin-left: 100px;
+        position: absolute;
+        z-index: 8;
+        background-color: rgba(80, 115, 113, 0.5);
+        border: 1px solid black;
+        width: 400px;
+        height: 220px;
+    }
+    .diseño{
+        margin-top: 560px;
+        margin-left: 100px;
+        position: absolute;
+        z-index: 7;
+        background-color: rgba(80, 115, 113, 0.5);
+        border: 1px solid black;
+        width: 400px;
+        height: 220px;
+    }
+    .produccion{
+        margin-top: 800px;
+        margin-left: 100px;
+        position: absolute;
+        z-index: 9;
+        background-color: rgba(80, 115, 113, 0.5);
+        border: 1px solid black;
+        width: 400px;
+        height: 220px;
+    }
+    .caja3{
+        background-color: #6B9996;
+        width: 460px;
+        height: 820px;
+    }
+    .barra3{
+        background-color: #F9C15C;
+        width: 80px;
+        height: 820px;
+        margin-left: 460px;
+    }
+    .titulo3{
+        font-family: 'Arvo', serif;
+        font-size: 25px;
+        margin-top: 25px;
+        margin-left: 110px;
+        position: absolute;
+        z-index: 12;
+    }
+    .mano{
+        display: none;
+    }
+    .barra4{
+        background-color: #F9C15C;
+        width: 80px;
+        height: 40px;
+    }
+    .caja4{
+        background-color: #FFFFFF;
+        width: 460px;
+        height: 40px;
+    }
+    .caja5{
+        background-color: #6B9996;
+        width: 560px;
+        height: 750px;
+    }
+    .titulo4{
+        font-family: 'Arvo', serif;
+        font-size: 30px;
+        margin-top:30px;
+        margin-left: 185px;
+        position: absolute;
+        z-index: 23;
+    }
+    .logo2{
+        z-index: 20;
+        display: flex;
+        justify-content: center; 
+        margin-top: -50px;
+    }
+    .logo22{
+        position: absolute;
+        z-index: 21;
+        opacity: 0.3;
+        width: 430px;
+        margin-top: 120px;
+    }
+    .camara{
+        position: absolute;
+        z-index: 22;
+        width: 210px;
+        height: 165px; 
+        margin-top: 150px;
+        margin-left: 60px;
+    }
+    .servicios{
+        position: absolute;
+        z-index: 23;
+        font-size: 15px;
+        font-family: 'Arvo', serif;
+        margin-top: 300px;
+        margin-left: 100px;
+    }
+    .video{
+        position: absolute;
+        z-index: 24;
+        width: 210px;
+        height: 165px; 
+        margin-top: 130px;
+        margin-left: 300px;
+    }
+    .servicios2{
+        position: absolute;
+        z-index: 25;
+        font-size: 15px;
+        font-family: 'Arvo', serif;
+        margin-top: 276px;
+        margin-left: 360px;
+    }
+    .pintura{
+        position: absolute;
+        z-index: 26;
+        width: 210px;
+        height: 165px; 
+        margin-top: 400px;
+        margin-left: 60px;
+    }
+    .servicios3{
+        position: absolute;
+        z-index: 27;
+        font-size: 15px;
+        font-family: 'Arvo', serif;
+        margin-top: 560px;
+        margin-left: 95px;
+    }
+    .lapiz{
+        position: absolute;
+        z-index: 26;
+        width: 210px;
+        height: 165px; 
+        margin-top: 376px;
+        margin-left: 300px;
+    }
+    .servicios4{
+        position: absolute;
+        z-index: 27;
+        font-size: 15px;
+        font-family: 'Arvo', serif;
+        margin-top: 537px;
+        margin-left: 350px;
+    }
+    .caja6{
+        background-color: #FFFFFF;
+        width: 460px;
+        height: 40px;
+    }
+    .barra6{
+        background-color: #F9C15C;
+        width: 80px;
+        height: 40px;
+    }
+    .caja7{
+        background-color: #6B9996;
+        width: 560px;
+        height: 700px;
+    }
+    .carrusel{
+        margin-top: 80px;
+    }
+    .foto1{
+        width: 300x;
+        height: 500px;
+        margin-left: 85px;
+    }
+    .frez{
+        width: 300x;
+        height: 500px;
+        margin-left: 77px;
+    }
+    .foto3{
+        width: 300x;
+        height: 500px;
+        margin-left: 85px;
+    }
+    .andimal{
+        width: 350x;
+        height: 550px;
+        margin-left: 75px;
+    }
+    .poster{
+        width: 350x;
+        height: 550px;
+        margin-left: 100px;
+    }
+    .garra{
+        width: 350x;
+        height: 550px;
+        margin-left: 85px;
+    }
+    .barra8{
+        background-color: #F9C15C;
+        width: 80px;
+        height: 40px;
+    }
+    .caja8{
+        background-color: #FFFFFF;
+        width: 460px;
+        height: 40px;
+    }
+    .caja9{
+        background-color: #6B9996;
+        width: 540px;
+        height: 1800px;
+    }
+    .titulo5{
+        font-size: 15px;
+        font-family: 'Arvo', serif;
+        margin-top:50px;
+        margin-left: 80px;
+        font-size: 30px;
+        position: absolute;
+        z-index: 35;
+    }
+    .titulo6{
+        font-size: 15px;
+        font-family: 'Arvo', serif;
+        margin-top: 910px;
+        margin-left: 72px;
+        font-size: 30px;
+        position: absolute;
+        z-index: 19;
+    } 
+    .logo44{
+        display: none;
+    }
+    .progreso1{
+        z-index: 38;
+        height: 35px;
+        width: 500px;
+        border-radius: 20px;
+        border: 2px solid #070519;
+        margin-top: -220px;
+        margin-left: 20px;
+    }
+    .progreso2{
+        position: absolute;
+        z-index: 39;
+        width: 500px;
+        border-radius: 20px;
+        border: 2px solid #070519;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .progreso3{
+        position: absolute;
+        z-index: 40;
+        width: 500px;
+        border-radius: 20px;
+        border: 2px solid #070519;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+    .progreso4{
+        position: absolute;
+        z-index: 41;
+        width: 500px;
+        border-radius: 20px;
+        border: 2px solid #070519;
+        margin-top: 250px;
+        margin-left: 20px;
+    }
+    .progreso5{
+        position: absolute;
+        z-index: 42;
+         width: 500px;
+        border-radius: 20px;
+        border: 2px solid #070519;
+        margin-top: 350px;
+        margin-left: 20px;
+    }
+    .progreso6{
+        position: absolute;
+        z-index: 43;
+        width: 500px;
+        border-radius: 20px;
+        border: 2px solid #070519;
+        margin-top: 450px;
+        margin-left: 20px;
+    }
+    .progreso7{
+        position: absolute;
+        z-index: 44;
+        width: 500px;
+        border-radius: 20px;
+        border: 2px solid #070519;
+        margin-top: 550px;
+        margin-left: 20px;
+    }
+    .progreso8{
+        position: absolute;
+        z-index: 45;
+        width: 500px;
+        border-radius: 20px;
+        border: 2px solid #070519;
+        margin-top: 650px;
+        margin-left: 20px;
+    }
+    .progreso9{
+        z-index: 46;
+        width: 500px;
+        border-radius: 20px;
+        border: 2px solid #070519;
+        margin-top: 830px;
+        margin-left: 20px;
+    }
+    .progreso10{
+        position: absolute;
+        z-index: 47;
+        width: 500px;
+        border-radius: 20px;
+        border: 2px solid #070519;
+        margin-left: 20px;
+    }
+    .progreso11{
+        position: absolute;
+        z-index: 48;
+        width: 500px;
+        border-radius: 20px;
+        border: 2px solid #070519;
+        margin-left: 20px;
+    }
+    .progreso12{
+        position: absolute;
+        z-index: 49;
+        width: 500px;
+        border-radius: 20px;
+        border: 2px solid #070519;
+        margin-left: 20px;
+    }
+    .progreso13{
+        position: absolute;
+        z-index: 50;
+        width: 500px;
+        border-radius: 20px;
+        border: 2px solid #070519;
+        margin-left: 20px;
+    }
+    .progreso14{
+        position: absolute;
+        z-index: 51;
+        width: 500px;
+        border-radius: 20px;
+        border: 2px solid #070519;
+        margin-left: 20px;
+    }
+    .progreso15{
+        position: absolute;
+        z-index: 52;
+        width: 500px;
+        border-radius: 20px;
+        border: 2px solid #070519;
+        margin-left: 20px;
+    }
+    .progreso16{
+        position: absolute;
+        z-index: 53;
+        width: 500px;
+        border-radius: 20px;
+        border: 2px solid #070519;
+        margin-left: 20px;
+    }
+    .caja10{
+        display: flex;
+        background-color: #364D4B;
+        width: 560px;
+        height: 100px;
+    }
+    .item1{
+        position: absolute;
+        z-index: 64;
+        margin-top: 20px;
+        margin-left: 100px;
+        width: 60px;
+        height: 60px;
+    }
+    .item2{
+        position: absolute;
+        z-index: 65;
+        margin-top: 20px;
+        margin-left: 245px;
+        width: 60px;
+        height: 60px;
+    }
+    .item3{
+        position: absolute;
+        z-index: 66;
+        margin-top: 20px;
+        margin-left: 380px;
+        width: 60px;
+        height: 60px;
+    }
+    .caja11{
+        background-color: #FFFFFF;
+        width: 560px;
+        height: 480px;
+    }
+    .titulo7{
+        font-size: 20px;
+        font-family: 'Arvo', serif;
+        position: absolute;
+        z-index: 54;
+        margin-top: 30px;
+        margin-left: 220px;
+    }
+    .logou{
+        z-index: 55;
+        display: flex;
+        justify-content: center; 
+        margin-top: 280px;
+        margin-left: -10px;
+    }
+    .logoul{
+        margin-top: -450px;
+        position: absolute;
+        z-index: 56;
+        opacity: 0.3;
+        width: 430px;
+    }
+    .formulario1{
+        position: absolute;
+        z-index: 57;
+        font-family: 'Arvo', serif;
+        font-size: 20px;
+        margin-top: -250px ;
+        margin-left: 75px;
+    }
+    .formulario11{
+        position: absolute;
+        z-index: 58;
+        width: 400px;
+        border-radius: 20px;
+        background-color: #F9C15C;
+        opacity: 0.7;
+        border: 2px solid #070519;
+        margin-top: -230px;
+        margin-left: 70px;
+    }
+    .formulario2{
+        position: absolute;
+        z-index: 59;
+        font-family: 'Arvo', serif;
+        font-size: 20px;
+        margin-top: -200px ;
+        margin-left: 75px;
+    }
+    .formulario22{
+        position: absolute;
+        z-index: 60;
+        width: 400px;
+        border-radius: 20px;
+        background-color: #F9C15C;
+        opacity: 0.7;
+        border: 2px solid #070519;
+        margin-top: -180px;
+        margin-left: 70px;
+    }
+    .formulario3{
+        position: absolute;
+        z-index: 61;
+        font-family: 'Arvo', serif;
+        font-size: 20px;
+        margin-top: -150px ;
+        margin-left: 75px;
+    }
+    .formulario33{
+        position: absolute;
+        z-index: 62;
+        width: 400px;
+        border-radius: 20px;
+        background-color: #F9C15C;
+        opacity: 0.7;
+        border: 2px solid #070519;
+        margin-top: -130px;
+        margin-left: 70px;
+    }
+    .boton2{
+        position: absolute;
+        z-index: 63;
+        margin-top: -10px;
+        margin-left: 235px;
+        display: flex;
+        width: 75px;
+        height: 20px;
+        background-color: #6B9996;
+        opacity: 0.7;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .caja12{
+        display: flex;
+        background-color: #364D4B;
+        width: 560px;
+        height: 150px;
+    }
+    .textofinal{
+        position: absolute;
+        z-index: 67;
+        font-size: 20px;
+        font-family: 'Arvo', serif;
+        margin-top: 30px;
+        margin-left: 200px;
+    }
+    .logofinal{
+        position: absolute;
+        z-index: 68;
+        width: 90px;
+        height: 110px; 
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    .logofinal2{
+        position: absolute;
+        z-index: 69;
+        opacity: 0.7;
+        width: 120px;
+        margin-top: 60px;
+        margin-left: 395px;
+    }
+    
+}
+
+
